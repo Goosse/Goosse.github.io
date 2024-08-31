@@ -2,12 +2,9 @@
    height:100vh;
    width:100vw;
    position: fixed;
-   background-color: #0f2932;
-   background: linear-gradient(90deg, rgba(9,124,64,1) 0%, rgba(27,85,64,1) 30%, rgba(20,50,51,1) 61%, rgba(16,29,43,1) 100%);
-   margin: 0;
+   top: 0;
+   left:0;
    background-image: url("background.jpg");
-   background-repeat: no-repeat;
-   background-attachment: fixed;
    background-size: cover;
 }
 body{
