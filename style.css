@@ -1,0 +1,35 @@
+html{
+   background-color: #0f2932;
+   background: linear-gradient(90deg, rgba(9,124,64,1) 0%, rgba(27,85,64,1) 30%, rgba(20,50,51,1) 61%, rgba(16,29,43,1) 100%);
+   margin: 0;
+   background-image: url("background.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% auto;
+}
+body{
+   position:relative;
+   margin-bottom: 0;
+}
+#banner{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    display: block;
+}
+ #cactus {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+ }
+ 
+ html .cog-form:not(.cog-form--show-all-pages) .cog-section__inner, :root:root:root .cog-form:not(.cog-form--show-all-pages) .cog-section__inner
+ {
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 10px;
+ }
+ 
+ html .cog-form:not(.cog-form--show-all-pages) .cog-section__inner, :root:root:root .cog-form:not(.cog-form--show-all-pages) .cog-section__inner hr{
+    border-bottom-color:#fff !important;
+ }
