@@ -11,6 +11,7 @@ body{
    position:relative;
    margin-bottom: 0;
    padding-bottom:0;
+   background-color: #000;
 }
 .wrapper{
    position:relative;
@@ -31,6 +32,23 @@ body{
     left: 0;
     width: 150px;
  }
+ 
+html .cog-upload:not(.is-read-only), :root:root:root:root:root .cog-upload:not(.is-read-only), html .cog-body, html .cog-form--confirmation-has-entry-details .cog-page, :root:root:root:root:root .cog-form--confirmation-has-entry-details .cog-page  {
+   background-color: rgba(0, 0, 0, 0.4);
+}
+ 
+ @media screen and (min-width: 800px) {
+    #cactus {
+       left: calc(50% - 400px)
+    }
+ }
+ 
+ @media screen and (min-width: 850px) {
+     #background {
+        width: 850px;
+         left: calc(50% - 425px);
+     }
+  }
  
  html .cog-form:not(.cog-form--show-all-pages) .cog-section__inner, :root:root:root .cog-form:not(.cog-form--show-all-pages) .cog-section__inner
  {
